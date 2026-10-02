@@ -27,6 +27,8 @@ namespace StudentGroupSystem.Services
             return searchResults != null && searchResults.Count > 0;
         }
 
+
+
         // Очистка / сброс результатов поиска
         public List<Student> ClearSearch(List<Student> originalList)
         {
