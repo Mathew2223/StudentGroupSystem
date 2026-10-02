@@ -29,7 +29,9 @@ namespace StudentGroupSystem.Services
 
 
 
-        // Очистка / сброс результатов поиска
+        // Очистка / сброс результатов поиска """третий комит"""
+
+
         public List<Student> ClearSearch(List<Student> originalList)
         {
             return originalList;
