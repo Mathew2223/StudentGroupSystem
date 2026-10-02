@@ -32,6 +32,9 @@
             <!-- Вкладка 3: Отчеты (добавит Разработчик 3) -->
             <TabItem Header="Отчеты">
                 <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
                     <TextBlock Text="Модуль отчетов (в разработке...)" 
                                HorizontalAlignment="Center" 
                                VerticalAlignment="Center"
